@@ -1,0 +1,13 @@
+[package]
+name = "badidea"
+version = "0.1.0"
+authors = ["Christine Dodrill <me@christine.website>"]
+edition = "2018"
+
+[lib]
+name = "badidea"
+crate-type = ["dylib"]
+
+[dependencies]
+ureq = "2"
+weechat = "0.4"
